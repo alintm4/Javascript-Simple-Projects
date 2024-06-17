@@ -1,0 +1,47 @@
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: bisque;
+}
+h1{
+    font-size: 4em;
+    color: rgb(26, 21, 14);
+}
+#container{
+   font-size: 3em;
+ border: 5px solid;
+ border-radius: 30px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 10px;
+}
+#display{
+    font-size: 5rem;
+   font-weight: bold;
+}
+#btns button{ 
+font-size: 2rem;
+border-radius: 10px;
+cursor: pointer;
+}
+#start{
+background-color: rgba(0, 128, 0, 0.603);
+}
+#start:hover{
+    background-color: rgba(0, 128, 0, 0.312);
+}
+#stop{
+background-color: rgba(0, 0, 255, 0.74);
+}
+#stop:hover{
+    background-color: skyblue;
+}
+#reset{
+background-color: rgba(255, 0, 0, 0.616);
+}
+#reset:hover{
+    background-color: rgba(255, 0, 0, 0.373);
+}
+

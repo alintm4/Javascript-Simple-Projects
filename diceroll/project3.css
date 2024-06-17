@@ -1,0 +1,52 @@
+h1{
+    color: aqua;
+}
+p{
+    font-size: 1.5em;
+    display: block;
+    margin-right: 5px;
+}
+label{
+    font-size: 1.5em;
+    display: inline-block;
+    margin-right: 5px;
+}
+#whole{
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    border: none;
+    background-color: beige;
+    
+}
+button{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.75em;
+}
+button:hover{
+    background-color: skyblue;
+
+}
+button:active{
+    opacity: 0.7;
+}
+#num{
+    text-align: center;
+    font-size: 0.9em;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+
+}
+#diceresult{
+    margin: 25px;
+}
+#diceimage img{
+    max-width: 100px;
+    margin: 10px;
+}
